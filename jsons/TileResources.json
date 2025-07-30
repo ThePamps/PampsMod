@@ -1,0 +1,36 @@
+[
+{
+		"name": "Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Plains",
+			"Grassland"
+		],
+		"production": 1,
+		"improvedBy": [
+			"Plantation"
+		],
+		"improvementStats": {
+			"gold": 2,
+            "production": 1
+		}
+	},
+{
+		"name": "Cannabis",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Plains",
+			"Grassland"
+		],
+		"happiness": 1,
+		"improvedBy": [
+			"Plantation"
+		],
+		"improvementStats": {
+			"happiness": 1,
+            "culture": 1
+		}
+	}
+
+
+]

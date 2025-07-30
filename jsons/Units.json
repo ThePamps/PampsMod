@@ -1,0 +1,19 @@
+[
+{
+"name": "Recon",
+       "replaces": "Scout",
+       "unitType": "Scout",
+        "movement": 2,
+        "strength": 35,
+        "requiredTech": "Radio",
+        "uniques": [
+            "Ignores terrain cost",
+            "Invisible to non-adjacent units",
+            "[+15]% to Flank Attack bonuses"
+            
+
+        ],
+        "cost": 350,
+        "attackSound": "shot"
+},
+]
