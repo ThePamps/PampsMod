@@ -1,7 +1,6 @@
 [
 {
 "name": "Recon",
-       "replaces": "Scout",
        "unitType": "Scout",
         "movement": 2,
         "strength": 35,
@@ -10,8 +9,6 @@
             "Ignores terrain cost",
             "Invisible to non-adjacent units",
             "[+15]% to Flank Attack bonuses"
-            
-
         ],
         "cost": 350,
         "attackSound": "shot"
