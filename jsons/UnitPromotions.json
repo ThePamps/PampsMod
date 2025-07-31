@@ -128,4 +128,16 @@
         "uniques": ["Withdraws before melee combat","Can move after attacking"],
         "unitTypes": ["Recon"]
     },
+{
+	"name": "Covert Ops",
+		"prerequisites": ["Hit and Run", "Guerilla"],
+        "uniques": ["Invisible to non-adjacent units"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Black Ops",
+		"prerequisites": ["Hit and Run", "Guerilla"],
+        "uniques": ["May enter foreign tiles without open borders"],
+        "unitTypes": ["Recon"]
+    },
 ]

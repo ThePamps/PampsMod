@@ -5,7 +5,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "Radio",
 		"upgradesTo": "Recon",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
@@ -31,10 +31,7 @@
         "strength": 35,
         "requiredTech": "Radio",
         "uniques": [
-            "Ignores terrain cost",
-            "Invisible to non-adjacent units",
-            
-
+            "Ignores terrain cost"
         ],
         "cost": 350,
         "attackSound": "shot"
