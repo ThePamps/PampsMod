@@ -11,6 +11,19 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+        "name": "Great General",
+        "unitType": "Civilian",
+        "uniques": [
+            "[+25]% Strength bonus for [{Military} {Land}] units within [3] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
 {
 "name": "Recon",
        "unitType": "Recon",
@@ -20,7 +33,6 @@
         "uniques": [
             "Ignores terrain cost",
             "Invisible to non-adjacent units",
-            "[+15]% to Flank Attack bonuses"
             
 
         ],
@@ -38,4 +50,16 @@
         "cost": 400,
         "attackSound": "shot"
 },
+	{
+        "name": "Officer",
+        "unitType": "Civilian",
+        "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+			"Can only be built <in cities with a [Military Academy]>"
+            "Uncapturable"
+        ],
+        "movement": 3,
+		"requiredTech": "Military Science",
+		"cost": 550
+    },
 ]
