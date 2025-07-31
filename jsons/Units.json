@@ -44,12 +44,11 @@
        "unitType": "Recon",
         "movement": 3,
         "strength": 75,
-        "requiredTech": "Telecommunications",
+        "requiredTech": "Computers",
 		"obsoleteTech": "Future Tech",
 		"upgradesTo": "Super Soldier",
         "uniques": [
             "Ignores terrain cost",
-			"Can only be built <after discovering [Radar]>",
 			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"
         ],
