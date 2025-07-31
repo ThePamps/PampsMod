@@ -1,0 +1,20 @@
+[
+	{
+	"name": "Finisher I",
+        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+	"name": "Finisher II",
+		"prerequisites": ["Finisher I"],
+        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+	"name": "Finisher III",
+		"prerequisites": ["Finisher II"],
+        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+        "unitTypes": ["Sniper"]
+    },
+
+]

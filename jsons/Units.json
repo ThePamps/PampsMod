@@ -15,7 +15,6 @@
         "cost": 350,
         "attackSound": "shot"
 },
-	{
 "name": "Sniper",
        "unitType": "Sniper",
         "movement": 2,
