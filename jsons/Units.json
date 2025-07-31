@@ -1,7 +1,19 @@
 [
 {
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Recon",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+{
 "name": "Recon",
-       "unitType": "Scout",
+       "unitType": "Recon",
         "movement": 2,
         "strength": 35,
         "requiredTech": "Radio",

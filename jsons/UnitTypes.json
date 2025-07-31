@@ -4,4 +4,8 @@
         "movementType": "Land",
         "uniques":["Ranged Gunpowder"]
     },
+	  {
+        "name": "Recon",
+        "movementType": "Land",
+    },
 	]

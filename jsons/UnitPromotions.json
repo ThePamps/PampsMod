@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Recover",
+		"uniques": ["[This Unit] heals [75] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Recon"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
+	{
 	"name": "Finisher I",
         "uniques": ["[+10]% Strength <vs [Wounded] units>"],
         "unitTypes": ["Sniper"]
@@ -29,7 +38,7 @@
     },
 	{
 	"name": "Armour Piercing III",
-		"prerequisites": ["Armour Piercing II"],
+		couting I"prerequisites": ["Armour Piercing II"],
         "uniques": ["[+10]% Strength <vs [Armored] units>"],
         "unitTypes": ["Sniper"]
     },
@@ -56,5 +65,69 @@
 		"prerequisites": ["Optics"],
         "uniques": ["[1] additional attacks per turn"],
         "unitTypes": ["Sniper"]
+    },
+
+{
+	"name": "Ambush I",
+        "uniques": ["[+15]% to Flank Attack bonuses"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+        "uniques": ["[+15]% to Flank Attack bonuses"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Ambush III",
+	"prerequisites": ["Ambush II"],
+        "uniques": ["[+20]% to Flank Attack bonuses"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Recon I",
+        "uniques": ["[+1] Sight"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Recon II",
+		"prerequisites": ["Recon I"],
+        "uniques": ["[+1] Sight"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Recon III",
+	"prerequisites": ["Recon II"],
+        "uniques": ["[+1] Movement"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Sabotage I",
+        "uniques": ["[+25]% Yield from pillaging tiles"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Sabotage II",
+		"prerequisites": ["Sabotage I"],
+        "uniques": ["No movement cost to pillage","[+25]% Yield from pillaging tiles"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Sabotage III",
+	"prerequisites": ["Sabotage II"],
+        "uniques": ["[+50]% Yield from pillaging tiles"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Guerilla",
+		"prerequisites": ["Recon III", "Ambush III"],
+        "uniques": ["[+50]% Strength decreasing with distance from the capital"],
+        "unitTypes": ["Recon"]
+    },
+{
+	"name": "Hit and Run",
+		"prerequisites": ["Sabotage III"],
+        "uniques": ["Withdraws before melee combat","Can move after attacking"],
+        "unitTypes": ["Recon"]
     },
 ]
