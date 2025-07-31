@@ -23,8 +23,6 @@
 		"rangedStrength": 55,
 		"range": 3,
         "requiredTech": "Refrigeration",
-        "uniques": [
-        ],
         "cost": 400,
         "attackSound": "shot"
 },
