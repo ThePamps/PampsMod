@@ -36,7 +36,7 @@
     },
 	{
 	"name": "Armour Piercing III",
-		couting I"prerequisites": ["Armour Piercing II"],
+		"prerequisites": ["Armour Piercing II"],
         "uniques": ["[+25]% Strength <vs [Armored] units>"],
         "unitTypes": ["Sniper"]
     },
