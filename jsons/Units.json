@@ -30,10 +30,44 @@
         "movement": 2,
         "strength": 35,
         "requiredTech": "Radio",
+		"upgradesTo": "Special Ops",
         "uniques": [
-            "Ignores terrain cost"
+            "Ignores terrain cost",
+			"Never appears as a Barbarian unit"
         ],
         "cost": 350,
+		"obsoleteTech": "Telecommunications",
+        "attackSound": "shot"
+},
+	{
+	"name": "Special Ops",
+       "unitType": "Recon",
+        "movement": 3,
+        "strength": 75,
+        "requiredTech": "Telecommunications",
+		"obsoleteTech": "Future Tech",
+		"upgradesTo": "Super Soldier",
+        "uniques": [
+            "Ignores terrain cost",
+			"Can only be built <after discovering [Radar]>",
+			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>", 
+			"Never appears as a Barbarian unit"
+        ],
+        "cost": 400,
+        "attackSound": "shot"
+},
+	{
+	"name": "Super Soldier",
+       "unitType": "Recon",
+        "movement": 3,
+        "strength": 115,
+        "requiredTech": "Future Tech",
+        "uniques": [
+            "Ignores terrain cost",
+			"May Paradrop to [Land] tiles up to [10] tiles away", 
+			"Never appears as a Barbarian unit"
+        ],
+        "cost": 600,
         "attackSound": "shot"
 },
 	{
@@ -44,6 +78,9 @@
 		"rangedStrength": 55,
 		"range": 3,
         "requiredTech": "Refrigeration",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+        ],
         "cost": 400,
         "attackSound": "shot"
 },
