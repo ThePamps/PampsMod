@@ -16,5 +16,45 @@
         "uniques": ["[+10]% Strength <vs [Wounded] units>"],
         "unitTypes": ["Sniper"]
     },
-
+	{
+	"name": "Armour Piercing I",
+        "uniques": ["[+10]% Strength <vs [Armored] units>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+	"name": "Armour Piercing II",
+		"prerequisites": ["Armour Piercing I"],
+        "uniques": ["[+10]% Strength <vs [Armored] units>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+	"name": "Armour Piercing III",
+		couting I"prerequisites": ["Armour Piercing II"],
+        "uniques": ["[+10]% Strength <vs [Armored] units>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+        "name": "Reposistion I",
+		"prerequisites": ["Armour Piercing I","Finisher I"],
+        "uniques": ["Withdraws before melee combat <with [25]% chance>"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+        "name": "Reposistion II",
+		"prerequisites": ["Reposistion I"],
+        "uniques": ["Withdraws before melee combat <with [50]% chance>"],
+        "unitTypes": ["Sniper"]
+    },
+	  {
+        "name": "Optics",
+		"prerequisites": ["Armour Piercing III","Finisher III","Reposistion II"],
+        "uniques": ["[+1] Sight","[+1] Range"],
+        "unitTypes": ["Sniper"]
+    },
+	{
+		"name": "Double Tap",
+		"prerequisites": ["Optics"],
+        "uniques": ["[1] additional attacks per turn"],
+        "unitTypes": ["Sniper"]
+    },
 ]
