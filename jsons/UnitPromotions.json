@@ -14,13 +14,13 @@
 	{
 	"name": "Finisher II",
 		"prerequisites": ["Finisher I"],
-        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+        "uniques": ["[+15]% Strength <vs [Wounded] units>"],
         "unitTypes": ["Sniper"]
     },
 	{
 	"name": "Finisher III",
 		"prerequisites": ["Finisher II"],
-        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+        "uniques": ["[+25]% Strength <vs [Wounded] units>"],
         "unitTypes": ["Sniper"]
     },
 	{
@@ -31,18 +31,17 @@
 	{
 	"name": "Armour Piercing II",
 		"prerequisites": ["Armour Piercing I"],
-        "uniques": ["[+10]% Strength <vs [Armored] units>"],
+        "uniques": ["[+15]% Strength <vs [Armored] units>"],
         "unitTypes": ["Sniper"]
     },
 	{
 	"name": "Armour Piercing III",
 		couting I"prerequisites": ["Armour Piercing II"],
-        "uniques": ["[+10]% Strength <vs [Armored] units>"],
+        "uniques": ["[+25]% Strength <vs [Armored] units>"],
         "unitTypes": ["Sniper"]
     },
 	{
         "name": "Reposistion I",
-		"prerequisites": ["Armour Piercing I","Finisher I"],
         "uniques": ["Withdraws before melee combat <with [25]% chance>"],
         "unitTypes": ["Sniper"]
     },
@@ -54,7 +53,7 @@
     },
 	  {
         "name": "Optics",
-		"prerequisites": ["Armour Piercing III","Finisher III","Reposistion II"],
+		"prerequisites": ["Armour Piercing III","Finisher III"],
         "uniques": ["[+1] Sight","[+1] Range"],
         "unitTypes": ["Sniper"]
     },
