@@ -2,6 +2,6 @@
 	  {
         "name": "Sniper",
         "movementType": "Land",
-        "uniques":["Ranged Gunpowder"]
+        "uniques":["Gunpowder"]
     },
 	]
