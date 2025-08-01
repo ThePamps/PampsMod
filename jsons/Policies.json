@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Agrarianism",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+1 Gold] from [Farm] tiles [in all cities]",
+            "[10]% Food is carried over after population increases [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Physiocracy",
+                "uniques": [
+                    "[+15]% Strength <in [Farm] tiles>",
+                    "[+1 Happiness] from [Farm] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Physiocracy 2 idk",
+                "uniques": [
+                    "Provides the cheapest [Food] building in your first [10] cities for free"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Lay of the Land",
+                "uniques": [
+                    "[+1 Food] from [Farm] tiles [in all cities]",
+                    "[+1 Food, +1 Culture, +1 Gold] from [Plantation] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Self-Sufficiency",
+                "uniques": [
+                    "[+2 Food] [in all cities]"
+                ],
+                "requires": ["Physiocracy"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Equal Distribution",
+                "uniques": [
+                    "[+2 Food, +1 Happiness] per [2] population [in all cities connected to capital]"
+                ],
+                "requires": ["Physiocracy 2 idk"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]",
+                    "[+25]% [Food] [in all cities]"
+                ]
+            }
+        ]
+    },
+	]
