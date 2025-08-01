@@ -36,7 +36,7 @@
 			"Never appears as a Barbarian unit"
         ],
         "cost": 350,
-		"obsoleteTech": "Telecommunications",
+		"obsoleteTech": "Computers",
         "attackSound": "shot"
 },
 	{

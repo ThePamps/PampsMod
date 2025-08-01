@@ -3,5 +3,15 @@
         "name": "Herbal Healing",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Tobacco]","[+1 Happiness] from every [Cannabis]"]
-    }
+    },
+	{
+        "name": "Crusade",
+        "type": "Founder",
+        "uniques": ["[+25]% Strength <during a Golden Age>"]
+    },
+		{
+        "name": "Promised Land",
+        "type": "Founder",
+        "uniques": ["[+15]% [Faith] [in holy cities]"]
+    },
 ]
