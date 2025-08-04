@@ -11,7 +11,8 @@
         },
         "uniques": [
             "[+1 Gold] from [Farm] tiles [in all cities]",
-            "[10]% Food is carried over after population increases [in all cities]"
+            "[10]% Food is carried over after population increases [in all cities]",
+	    "[-5]% [Science] [in all cities]"
         ],
         "policies": [
             {
@@ -52,7 +53,7 @@
             {
                 "name": "Equal Distribution",
                 "uniques": [
-                    "[+2 Food, +1 Happiness] per [2] population [in all cities connected to capital]"
+                    "[+2 Food, +1 Happiness] per [6] population [in all cities connected to capital]"
                 ],
                 "requires": ["Physiocracy 2 idk"],
                 "row": 2,
@@ -62,7 +63,8 @@
                 "name": "Agrarianism Complete",
                 "uniques": [
                     "[-50]% Food consumption by specialists [in all cities]",
-                    "[+25]% [Food] [in all cities]"
+                    "[+25]% [Food] [in all cities]",
+		    "[-5]% [Science] [in all cities]"
                 ]
             }
         ]
