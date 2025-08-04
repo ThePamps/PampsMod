@@ -71,13 +71,13 @@
     },
 {
 	"name": "Flank II",
-		"prerequisites": ["Ambush I"],
+		"prerequisites": ["Flank I"],
         "uniques": ["[+15]% to Flank Attack bonuses"],
         "unitTypes": ["Recon"]
     },
 {
 	"name": "Flank III",
-	"prerequisites": ["Ambush II"],
+	"prerequisites": ["Flank II"],
         "uniques": ["[+20]% to Flank Attack bonuses"],
         "unitTypes": ["Recon"]
     },
@@ -117,7 +117,7 @@
     },
 {
 	"name": "Guerilla Warfare",
-		"prerequisites": ["Recon III", "Ambush III"],
+		"prerequisites": ["Recon III", "Flank III"],
         "uniques": ["[+50]% Strength decreasing with distance from the capital"],
         "unitTypes": ["Recon"]
     },
