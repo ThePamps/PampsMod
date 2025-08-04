@@ -1,7 +1,7 @@
 [
     {
         "name": "Agrarianism",
-        "era": "Renaissance era",
+        "era": "Modern era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -26,7 +26,7 @@
             {
                 "name": "Physiocracy 2 idk",
                 "uniques": [
-                    "Provides the cheapest [Food] building in your first [10] cities for free"
+                    "Provides the cheapest [Food] building in your first [5] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -59,7 +59,7 @@
                 "column": 4
             },
             {
-                "name": "Tradition Complete",
+                "name": "Agrarianism Complete",
                 "uniques": [
                     "[-50]% Food consumption by specialists [in all cities]",
                     "[+25]% [Food] [in all cities]"
