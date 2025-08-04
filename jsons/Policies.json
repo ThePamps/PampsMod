@@ -26,7 +26,7 @@
             {
                 "name": "Physiocracy 2 idk",
                 "uniques": [
-                    "Provides the cheapest [Food] building in your first [5] cities for free"
+                    "Can build [Farm] improvements at a [+30]% rate"
                 ],
                 "row": 1,
                 "column": 3
