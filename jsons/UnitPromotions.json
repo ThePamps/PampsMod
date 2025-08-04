@@ -65,18 +65,18 @@
     },
 
 {
-	"name": "Ambush I",
+	"name": "Flank I",
         "uniques": ["[+15]% to Flank Attack bonuses"],
         "unitTypes": ["Recon"]
     },
 {
-	"name": "Ambush II",
+	"name": "Flank II",
 		"prerequisites": ["Ambush I"],
         "uniques": ["[+15]% to Flank Attack bonuses"],
         "unitTypes": ["Recon"]
     },
 {
-	"name": "Ambush III",
+	"name": "Flank III",
 	"prerequisites": ["Ambush II"],
         "uniques": ["[+20]% to Flank Attack bonuses"],
         "unitTypes": ["Recon"]
@@ -116,7 +116,7 @@
         "unitTypes": ["Recon"]
     },
 {
-	"name": "Guerilla",
+	"name": "Guerilla Warfare",
 		"prerequisites": ["Recon III", "Ambush III"],
         "uniques": ["[+50]% Strength decreasing with distance from the capital"],
         "unitTypes": ["Recon"]
@@ -129,13 +129,13 @@
     },
 {
 	"name": "Covert Ops",
-		"prerequisites": ["Hit and Run", "Guerilla"],
+		"prerequisites": ["Hit and Run", "Guerilla Warfare"],
         "uniques": ["Invisible to non-adjacent units"],
         "unitTypes": ["Recon"]
     },
 {
 	"name": "Black Ops",
-		"prerequisites": ["Hit and Run", "Guerilla"],
+		"prerequisites": ["Hit and Run", "Guerilla Warfare"],
         "uniques": ["May enter foreign tiles without open borders"],
         "unitTypes": ["Recon"]
     },
